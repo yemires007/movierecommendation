@@ -61,13 +61,13 @@ if st.button("Show recommendation"):
         st.text(movie_user_id[0])
         # st.image(movie_poster[0])
         st.video(recommend_poster[0])
-    # with col2:
-    #     st.text(movie_user_id[1])
-    #     # st.image(movie_poster[1])
-    #     st.video(recommend_poster[2])
-    # with col3:
-    #     st.text(movie_user_id[2])
-    #     # st.image(movie_poster[2])
-    #     # st.image(BytesIO(movie_poster[3]))
-    #     st.video(recommend_poster[3])
+    with col2:
+        st.text(movie_user_id[1])
+        # st.image(movie_poster[1])
+        st.video(recommend_poster[1])
+    with col3:
+        st.text(movie_user_id[2])
+        # st.image(movie_poster[2])
+        # st.image(BytesIO(movie_poster[3]))
+        st.video(recommend_poster[2])
 
